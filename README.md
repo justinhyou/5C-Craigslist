@@ -1,10 +1,8 @@
-Craigslist
+5C-Craigslist
 =================
 Summary
 -------
-This repo contains a re-designed, responsive craigslist clone that was created to practice my skills in CSS as well as implementing various APIs into Rails apps.
-
-![homepage](https://cloud.githubusercontent.com/assets/22533214/25117294/75a93ec0-23df-11e7-8560-c2fe6c380322.png)
+Among the five colleges that compose the Claremont Colleges, many students utilize various facebook groups and other communication platforms (such as campus-wide emails) to sell dorm room items, ranging from furniture to class books. Much waste is generated as these various platforms are not accessible to every student, and the difficulty of scheduling actual transitions prevent students from selling their items and rather ends up in the garbage disposal. This web app allows Claremont College students to better connect with each other.
 
 APIs/Gems:
 -------
@@ -29,12 +27,17 @@ User Stories
 ![post](https://cloud.githubusercontent.com/assets/22533214/25117291/759dc90a-23df-11e7-9d1e-0a696a62c700.png)
 ![allposts](https://cloud.githubusercontent.com/assets/22533214/25117293/75a8b9a0-23df-11e7-846e-84ab82b9e3cd.png)
 
+Additionally,
+7. Students of Claremont Colleges are the only users. 
+8. Users can view all posts made by self. 
+9. Admins receive a Slack notification with all info items for each post made.
+
 Installation Instructions
 -------
 To view locally, clone the repo, install and create the database.
 ```
-git clone https://github.com/jawt94/craigslist
-cd craigslist
+git clone https://github.com/justinhyou/5C-Craigslist
+cd 5C-Craigslist
 bundle install
 ```
 
@@ -46,4 +49,7 @@ mac - brew install imagemagick
 Then,start the server
 ```
 be rails s
-```
+
+Contact
+-------
+(Justin) Hyobin You at hyobinyou@gmail.com
