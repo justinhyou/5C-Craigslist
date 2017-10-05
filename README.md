@@ -49,6 +49,7 @@ mac - brew install imagemagick
 Then,start the server
 ```
 be rails s
+...
 
 Contact
 -------
