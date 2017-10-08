@@ -59,7 +59,11 @@ Contact
 References 
 -------
 https://developers.braintreepayments.com/guides/venmo/server-side/ruby
+
 https://github.com/RailsApps/rails-stripe-checkout
+
 http://www.hongkiat.com/blog/send-messages-to-slack/
+
 http://teejayvanslyke.com/use-slack-incoming-webhooks-from-rails.html
+
 https://github.com/jawt94/Craigslist
