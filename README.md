@@ -13,6 +13,11 @@ APIs/Gems:
 5. <a href="https://github.com/laserlemon/figaro">Figaro</a> for hiding API keys
 6. Bootstrap grids for making the website responsive
 
+Useful Functions
+-------
+1. Admins receive a Slack notification with all info items for each post made.
+2. Students of Claremont Colleges are the only users. 
+
 User Stories
 -------
 1. Users can login, logout and create an account.
@@ -21,16 +26,12 @@ User Stories
 4. Users can post a listing if logged in.
 5. Users can upload an image and address to their post if logged in.
 6. Users can edit/update their post if logged in.
+8. Users can view all posts made by self. 
 
 ![show](https://cloud.githubusercontent.com/assets/22533214/25117292/75a8724c-23df-11e7-9f4b-0ed4c9898a0a.png)
 ![profile](https://cloud.githubusercontent.com/assets/22533214/25117295/75a99adc-23df-11e7-8119-3030ea75dabf.png)
 ![post](https://cloud.githubusercontent.com/assets/22533214/25117291/759dc90a-23df-11e7-9d1e-0a696a62c700.png)
 ![allposts](https://cloud.githubusercontent.com/assets/22533214/25117293/75a8b9a0-23df-11e7-846e-84ab82b9e3cd.png)
-
-Additionally,
-7. Students of Claremont Colleges are the only users. 
-8. Users can view all posts made by self. 
-9. Admins receive a Slack notification with all info items for each post made.
 
 Installation Instructions
 -------
@@ -54,3 +55,11 @@ be rails s
 Contact
 -------
 (Justin) Hyobin You at hyobinyou@gmail.com
+
+References 
+-------
+https://developers.braintreepayments.com/guides/venmo/server-side/ruby
+https://github.com/RailsApps/rails-stripe-checkout
+http://www.hongkiat.com/blog/send-messages-to-slack/
+http://teejayvanslyke.com/use-slack-incoming-webhooks-from-rails.html
+https://github.com/jawt94/Craigslist
