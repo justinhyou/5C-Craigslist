@@ -12,8 +12,7 @@ APIs/Gems:
 4. <a href= "https://www.ckeditor.com">CKEditor</a> text editor which allows users to style their post listings.
 5. <a href="https://github.com/laserlemon/figaro">Figaro</a> for hiding API keys
 6. Bootstrap grids for making the website responsive
-7. Slack API/Incoming Webhook
-8. 
+7. <a href="https://github.com/slack-ruby/slack-ruby-client">Slack API</a>/Incoming Webhook 
 
 System Requirements:
 -------
@@ -34,6 +33,7 @@ User Stories
 5. Users can upload an image and address to their post if logged in.
 6. Users can edit/update their post if logged in.
 8. Users can view all posts made by self. 
+9. Users can sort postings by cost (organized by time of post by default).
 
 ![show](https://cloud.githubusercontent.com/assets/22533214/25117292/75a8724c-23df-11e7-9f4b-0ed4c9898a0a.png)
 ![profile](https://cloud.githubusercontent.com/assets/22533214/25117295/75a99adc-23df-11e7-8119-3030ea75dabf.png)
