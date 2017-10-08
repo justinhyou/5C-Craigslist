@@ -12,6 +12,8 @@ APIs/Gems:
 4. <a href= "https://www.ckeditor.com">CKEditor</a> text editor which allows users to style their post listings.
 5. <a href="https://github.com/laserlemon/figaro">Figaro</a> for hiding API keys
 6. Bootstrap grids for making the website responsive
+7. Slack API/Incoming Webhook
+8. 
 
 System Requirements:
 -------
