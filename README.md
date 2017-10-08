@@ -13,6 +13,11 @@ APIs/Gems:
 5. <a href="https://github.com/laserlemon/figaro">Figaro</a> for hiding API keys
 6. Bootstrap grids for making the website responsive
 
+System Requirements:
+-------
+1. Rails 5 (5.0.1)
+2. Ruby 2.4 (2.4.2p198)
+
 Useful Functions
 -------
 1. Admins receive a Slack notification with all info items for each post made.
