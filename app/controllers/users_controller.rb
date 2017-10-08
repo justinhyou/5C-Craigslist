@@ -31,6 +31,9 @@ def update
 end
 
 def show
+    @posts = @user.posts
+    @posts = Post.search(params[:search])
+    @categories = Category.all
 end
 
 def destroy
