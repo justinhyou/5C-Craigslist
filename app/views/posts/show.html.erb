@@ -12,9 +12,33 @@
       <h3 class="text-center"><%=number_to_currency(@post.cost)%></h3>
       <p class="text-center"><%= raw @post.body %></p>
       <%= image_tag @post.image.url %>
+      
       <br>
-      <h2 class="text-center"><%= link_to "Add Comment", comments_new_path(post_id: @post.id) %></h2>
-    </br>
+        <h2 class="text-center">Comments!</h2>
+
+        <% @post.comments.each do |comment| %>
+          <p>
+            <strong>Comment:</strong>
+            <%= comment.message %>
+          </p>
+
+
+        <% end %>
+      </br>
+
+      <br>
+        <h2 class="text-center">Add a comment!</h2>
+        <%= simple_form_for([@post, @post.comments.build]) do |f|%>
+          <center><%= f.input :message, :as => :ckeditor, input_html: {:ckeditor => {width: 450}}, class: "form-control" %></center>
+
+           <p>
+            <%= f.submit %>
+          </p>
+          <% end %>
+      </br>
+
+      <%= link_to 'Back to Posts', posts_path %>
+
     </div>
   </div>
 </div>

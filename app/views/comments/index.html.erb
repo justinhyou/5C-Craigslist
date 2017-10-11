@@ -1,0 +1,7 @@
+<% @comments.each do |comment| %>
+    <div class="col-xs-6">
+      <div class="text-center">
+        <div class="text-center">
+          <p class=post-body><%= raw(comment.message).truncate(358) %></p>
+        </div>
+<%end%>

@@ -10,7 +10,6 @@ class Post < ApplicationRecord
   validates :title, :body, :cost, presence: true
   belongs_to :category
   belongs_to :user
-
   has_many :comments, dependent: :destroy
 
   def self.search(search)
