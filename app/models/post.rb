@@ -11,6 +11,8 @@ class Post < ApplicationRecord
   belongs_to :category
   belongs_to :user
 
+  has_many :comments, dependent: :destroy
+
   def self.search(search)
     if search
         search = search.downcase

@@ -21,6 +21,7 @@ class PostsController < ApplicationController
   end
 
   def new
+    @comment = Comment.new(post_id: params[:post_id])
     @categories = Category.all
     @post = Post.new
   end

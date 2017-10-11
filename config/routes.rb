@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  get 'comments/new'
+  get '/comments/new', :to => 'comments#new', :as => :comments
+  #resources :comments, :path => ''
+  get 'comments/create'
+
   mount Ckeditor::Engine => '/ckeditor'
   resources :categories, only: [:index, :show]
   resources :posts
