@@ -1,10 +1,15 @@
 <%= simple_form_for @comment do |f| %>
 
+<br>
+<br>
+<center>
     <div class="form-group-3">
-      <%= f.input :message, :as => :ckeditor, input_html: {:ckeditor => {:toolbar => 'FULL'}}, class: "form-control" %>
+      <center><%= f.input :message, :as => :ckeditor, input_html: {:ckeditor => {:toolbar => 'FULL'}}, class: "form-control" %></center>
       <%= f.hidden_field :post_id %>
     </div>
-
+</center>
+</br>
+</br>
     <div class="form-group-submit">
       <%= f.button :submit %>
     </div>
