@@ -14,10 +14,11 @@ APIs/Gems:
 6. Bootstrap grids for making the website responsive
 7. <a href="https://github.com/slack-ruby/slack-ruby-client">Slack API</a>/Incoming Webhook 
 
-System Requirements:
+System Configurations:
 -------
-1. Rails 5 (5.0.1)
-2. Ruby 2.4 (2.4.2p198)
+Rails 5 (5.0.1)
+Ruby 2.4 (2.4.2p198)
+Last tested on Ubuntu (16.04 LTS) on Chrome (Version 61.0.3163.100).
 
 User Stories
 -------
@@ -51,14 +52,19 @@ cd 5C-Craigslist
 bundle install
 ```
 
-If you don't have imagemagick on your computer, install it
+If you don't have imagemagick on your computer, install it.
 ```
 mac - brew install imagemagick
 ```
 
-Then,start the server
+Then, start the server.
 ```
 be rails s
+```
+
+Go to following address on a web browser. 
+```
+localhost:3000
 ```
 
 Notes
