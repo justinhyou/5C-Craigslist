@@ -5,8 +5,16 @@
     <div class='form-group'>
       <%= text_field_tag :search, params[:search], class: 'form-control', placeholder: 'Search' %>
     </div>
+
+
     <%= submit_tag "Search", :name => nil, class: 'btn btn-default' %>
   <% end %>
+  <%= link_to 'New to Old', posts_path(order: :newest), class: "btn btn-default"%>
+  <%= link_to 'Old to New', posts_path(order: :oldest), class: "btn btn-default"%>
+  <%= link_to 'Low to High', posts_path(order: :lowToHigh), class: "btn btn-default"%>
+  <%= link_to 'High to Low', posts_path(order: :highToLow), class: "btn btn-default"%>
+
+
   <div class="col-sm-10 col-sm-offset-1 col-xs-12 blog-content">
     <% @posts.each do |post| %>
     <div class="col-xs-6">

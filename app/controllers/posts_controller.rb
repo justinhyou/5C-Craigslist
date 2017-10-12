@@ -17,7 +17,8 @@ class PostsController < ApplicationController
   def index
     @posts = Post.search(params[:search])
     @categories = Category.all
-    @posts = Post.order(created_at: :asc)
+    #@posts = Post.order(created_at: :desc)
+    @posts = Post.sort_by(params[:order])
   end
 
   def new

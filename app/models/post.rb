@@ -12,6 +12,26 @@ class Post < ApplicationRecord
   belongs_to :user
   has_many :comments, dependent: :destroy
 
+  scope :newest, -> {order(created_at: :desc)}
+  scope :oldest, -> {order(created_at: :asc)}
+  scope :lowToHigh, -> {order(cost: :asc)}
+  scope :highToLow, -> {order(cost: :desc)}
+
+  def self.sort_by(sort_param)
+    case sort_param
+    when 'newest'
+      newest
+    when 'oldest'
+      oldest
+    when 'lowToHigh'
+      lowToHigh
+    when 'highToLow'
+      highToLow
+    else 
+      all
+    end
+  end
+
   def self.search(search)
     if search
         search = search.downcase

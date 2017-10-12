@@ -19,11 +19,6 @@ System Requirements:
 1. Rails 5 (5.0.1)
 2. Ruby 2.4 (2.4.2p198)
 
-Useful Functions
--------
-1. Admins receive a Slack notification with all info items for each post made.
-2. Students of Claremont Colleges are the only users. 
-
 User Stories
 -------
 1. Users can login, logout and create an account.
@@ -35,6 +30,8 @@ User Stories
 7. Users can view all posts made by self. 
 8. Users can sort postings by cost (organized by descending post time by default).
 9. Users can comment on a posting. 
+10. Users can only register if a Claremont Colleges student. 
+11. Users can receive Slack notification for each new post made. 
 
 ![show](https://cloud.githubusercontent.com/assets/22533214/25117292/75a8724c-23df-11e7-9f4b-0ed4c9898a0a.png)
 ![profile](https://cloud.githubusercontent.com/assets/22533214/25117295/75a99adc-23df-11e7-8119-3030ea75dabf.png)
@@ -62,9 +59,13 @@ be rails s
 
 Ongoing Improvements to be Implemented
 -------
-1. Comments can only be made in session and display username.
+1. Users can post comments with automatically attached username.
 2. Users can view profiles of other users, which contains their posts. 
-3. Venmo/Paypal Integration (e.g. to user accounts, to posts).
+3. Users can use in-app Venmo/Paypal.
+4. Users can filter based on cost ranges, date ranges, and locations. 
+5. Users can navigate all pages with customized favicon.
+6. Users can edit/delete their own comments. 
+7. Users can automatically archive their sold items.  
 
 Contact
 -------
