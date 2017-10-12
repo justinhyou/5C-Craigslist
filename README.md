@@ -40,7 +40,7 @@ User Stories
 ![postdetails](demo_images/PostDetails.png)
 ![allposts](demo_images/AllPosts.png)
 ![categories](demo_images/Categories.png)
-![userprofile](demo_images/UseProfile.png)
+![userprofile](demo_images/UserProfile.png)
 
 Installation Instructions
 -------
