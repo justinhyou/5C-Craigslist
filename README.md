@@ -32,9 +32,9 @@ User Stories
 4. Users can post a listing if logged in.
 5. Users can upload an image and address to their post if logged in.
 6. Users can edit/update their post if logged in.
-8. Users can view all posts made by self. 
-9. Users can sort postings by cost (organized by descending post time by default).
-10. Users can comment on a posting. 
+7. Users can view all posts made by self. 
+8. Users can sort postings by cost (organized by descending post time by default).
+9. Users can comment on a posting. 
 
 ![show](https://cloud.githubusercontent.com/assets/22533214/25117292/75a8724c-23df-11e7-9f4b-0ed4c9898a0a.png)
 ![profile](https://cloud.githubusercontent.com/assets/22533214/25117295/75a99adc-23df-11e7-8119-3030ea75dabf.png)
