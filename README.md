@@ -33,7 +33,8 @@ User Stories
 5. Users can upload an image and address to their post if logged in.
 6. Users can edit/update their post if logged in.
 8. Users can view all posts made by self. 
-9. Users can sort postings by cost (organized by time of post by default).
+9. Users can sort postings by cost (organized by descending post time by default).
+10. Users can comment on a posting. 
 
 ![show](https://cloud.githubusercontent.com/assets/22533214/25117292/75a8724c-23df-11e7-9f4b-0ed4c9898a0a.png)
 ![profile](https://cloud.githubusercontent.com/assets/22533214/25117295/75a99adc-23df-11e7-8119-3030ea75dabf.png)
@@ -59,9 +60,16 @@ Then,start the server
 be rails s
 ```
 
+Ongoing Improvements to be Implemented
+-------
+1. Comments can only be made in session and display username.
+2. Users can view profiles of other users, which contains their posts. 
+3. Venmo/Paypal Integration (e.g. to user accounts, to posts).
+
 Contact
 -------
-(Justin) Hyobin You at hyobinyou@gmail.com
+(Justin) Hyobin You at hyobinyou@gmail.com.
+
 
 References 
 -------

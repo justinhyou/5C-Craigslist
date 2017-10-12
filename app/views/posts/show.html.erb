@@ -17,11 +17,10 @@
         <h2 class="text-center">Comments!</h2>
 
         <% @post.comments.each do |comment| %>
-          <p>
+          <div align="left">
             <strong>Comment:</strong>
             <%= raw comment.message %>
-          </p>
-
+          </div>
 
         <% end %>
       </br>
