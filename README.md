@@ -31,7 +31,7 @@ User Stories
 8. Users can sort postings by cost (organized by descending post time by default).
 9. Users can comment on a posting. 
 10. Users can only register if a Claremont Colleges student. 
-11. Users can receive Slack notification for each new post made. 
+11. Users can receive Slack notification for each new post made. (Refer to "Notes" for integration instructions.)
 
 ![home](demo_images/home.png)
 ![login](demo_images/Login.png)
@@ -61,8 +61,10 @@ Then,start the server
 be rails s
 ```
 
-Ongoing Improvements to be Implemented
+Notes
 -------
+
+Ongoing Improvements to be Implemented
 1. Users can post comments with automatically attached username.
 2. Users can view profiles of other users, which contains their posts. 
 3. Users can use in-app Venmo/Paypal.
@@ -70,6 +72,13 @@ Ongoing Improvements to be Implemented
 5. Users can navigate all pages with customized favicon.
 6. Users can edit/delete their own comments. 
 7. Users can automatically archive their sold items.  
+
+Slack Integration
+1. Create a channel in Slack group
+2. Create a New Bot Integration and note its API token
+3. Add API token to secrets.yml
+4. Uncomment code in posts_controller.rb
+[More details](https://github.com/slack-ruby/slack-ruby-client)
 
 Contact
 -------

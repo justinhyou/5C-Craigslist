@@ -1,9 +1,4 @@
 # require 'slack-ruby-client'
-# Slack.configure do |config|
-#   config.token = ENV["SLACK_API_TOKEN"]
-# end
-# client = Slack::Web::Client.new
-# client.auth_test
 
 class PostsController < ApplicationController
   before_action :require_user, except: [:index, :show]
@@ -11,8 +6,11 @@ class PostsController < ApplicationController
   before_action :authenticate, only: [:edit, :update, :destroy]
   
   
-#  client = Slack::Web::Client.new
-#  client.auth_test
+  # Slack.configure do |config|
+  #   config.token = ENV["SLACK_API_TOKEN"]
+  # end
+  # client = Slack::Web::Client.new
+  # client.auth_test
 
   def index
     @posts = Post.search(params[:search])
