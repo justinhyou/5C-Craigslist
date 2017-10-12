@@ -33,10 +33,14 @@ User Stories
 10. Users can only register if a Claremont Colleges student. 
 11. Users can receive Slack notification for each new post made. 
 
-![show](https://cloud.githubusercontent.com/assets/22533214/25117292/75a8724c-23df-11e7-9f4b-0ed4c9898a0a.png)
-![profile](https://cloud.githubusercontent.com/assets/22533214/25117295/75a99adc-23df-11e7-8119-3030ea75dabf.png)
-![post](https://cloud.githubusercontent.com/assets/22533214/25117291/759dc90a-23df-11e7-9d1e-0a696a62c700.png)
-![allposts](https://cloud.githubusercontent.com/assets/22533214/25117293/75a8b9a0-23df-11e7-846e-84ab82b9e3cd.png)
+![home](demo_images/home.png)
+![login](demo_images/Login.png)
+![register](demo_images/Register.png)
+![newpost](demo_images/NewPost.png)
+![postdetails](demo_images/PostDetails.png)
+![allposts](demo_images/AllPosts.png)
+![categories](demo_images/Categories.png)
+![userprofile](demo_images/UseProfile.png)
 
 Installation Instructions
 -------
