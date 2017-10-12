@@ -19,7 +19,7 @@
         <% @post.comments.each do |comment| %>
           <p>
             <strong>Comment:</strong>
-            <%= comment.message %>
+            <%= raw comment.message %>
           </p>
 
 
@@ -29,7 +29,9 @@
       <br>
         <h2 class="text-center">Add a comment!</h2>
         <%= simple_form_for([@post, @post.comments.build]) do |f|%>
-          <center><%= f.input :message, :as => :ckeditor, input_html: {:ckeditor => {width: 450}}, class: "form-control" %></center>
+        <div class="form-group-3">
+          <%= f.input :message, :as => :ckeditor, input_html: {:ckeditor => {width: 450}}, class: "form-control" %>
+        </div>
 
            <p>
             <%= f.submit %>

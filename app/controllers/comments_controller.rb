@@ -3,7 +3,6 @@ class CommentsController < ApplicationController
     @post = Post.find(params[:post_id])
 #    @comment = @post.comments.create(comment_params)
     @comment = @post.comments.new(comment_params)
-#    @user = current_user
     if @comment.save!
       flash[:notice] = "Comment Posted!"
       redirect_to(@post)
