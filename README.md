@@ -17,7 +17,9 @@ APIs/Gems:
 System Configurations:
 -------
 Rails 5 (5.0.1)
+
 Ruby 2.4 (2.4.2p198)
+
 Last tested on Ubuntu (16.04 LTS) on Chrome (Version 61.0.3163.100).
 
 User Stories
@@ -34,14 +36,14 @@ User Stories
 10. Users can only register if a Claremont Colleges student. 
 11. Users can receive Slack notification for each new post made. (Refer to "Notes" for integration instructions.)
 
-![home](demo_images/home.png)
-![login](demo_images/Login.png)
-![register](demo_images/Register.png)
-![newpost](demo_images/NewPost.png)
-![postdetails](demo_images/PostDetails.png)
-![allposts](demo_images/AllPosts.png)
-![categories](demo_images/Categories.png)
-![userprofile](demo_images/UserProfile.png)
+![HomePage](demo_images/home.png)
+![LoginPage](demo_images/Login.png)
+![Registration](demo_images/Register.png)
+![NewPosting](demo_images/NewPost.png)
+![PostInfo](demo_images/PostDetails.png)
+![AllPosts](demo_images/AllPosts.png)
+![Categories](demo_images/Categories.png)
+![UserProfile](demo_images/UserProfile.png)
 
 Installation Instructions
 -------
